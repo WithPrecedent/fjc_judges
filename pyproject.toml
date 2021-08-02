@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fjc_judges"
+version = "0.1.0"
+description = "munges FJC judge data for name matching"
+authors = ["corey rayburn yung <coreyrayburnyung@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.21.1"
+pandas = "^1.3.1"
+more-itertools = "^8.8.0"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
